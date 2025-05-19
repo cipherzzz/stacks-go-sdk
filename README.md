@@ -25,7 +25,7 @@ Here are some basic usage examples:
 ### Creating and Broadcasting a Token Transfer Transaction
 ```go
 import (
-    "github.com/icon-project/stacks-go-sdk/stacks"
+    "github.com/icon-project/stacks-go-sdk/pkg/stacks"
     "math/big"
 )
 
@@ -66,8 +66,8 @@ func main() {
 ### Creating and Broadcasting a Token Transfer Transaction
 ```go
 import (
-    "github.com/icon-project/stacks-go-sdk/stacks"
-    "github.com/icon-project/stacks-go-sdk/clarity"
+    "github.com/icon-project/stacks-go-sdk/pkg/stacks"
+    "github.com/icon-project/stacks-go-sdk/pkg/clarity"
 )
 
 func main() {
@@ -113,7 +113,7 @@ func main() {
 ### Working with Clarity Values
 ```golang
 import (
-    "github.com/icon-project/stacks-go-sdk/clarity"
+    "github.com/icon-project/stacks-go-sdk/pkg/clarity"
 )
 
 func main() {
